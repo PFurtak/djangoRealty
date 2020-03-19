@@ -8,6 +8,6 @@ class Seller(models.Model):
     phone = models.CharField(max_length=20)
     email = models.CharField(max_length=75)
     is_mvp = models.BooleanField(default=False)
-    hire_date = models.DateTimeField(datetime.now, blank=True)
+    hire_date = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
         return self.name
