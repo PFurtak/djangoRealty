@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <!-- LightBox -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}" />
-
-    <title>djangoRealty</title>
+    <title>djangoRealty{% block title %}{% endblock %}</title>
   </head>
   <body>
    {% include 'partials/_contactbar.html' %} 
