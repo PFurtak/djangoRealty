@@ -83,7 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djangorealty',
-        'USER': 'patrickfurtak',
+        'USER': 'dbadmin',
+        'PASSWORD': ' ',
         'HOST' : 'localhost'
     }
 }
